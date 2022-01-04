@@ -70,3 +70,20 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
+
+  .col-style {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+ .first-col {
+   text-align: right;
+ }
+
+ .second-col {
+  text-align: left;
+ }
+
+ .third-col {
+   text-align: center;
+ }
