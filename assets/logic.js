@@ -19,7 +19,7 @@ console.log(startTime)
 
 function getTimeSlots () { 
 
-  for(let i = 19; i < 25; i++ ) {
+  for(let i = 8; i < 18; i++ ) {
     const setTimeSlots = startTime.add(1, "hour").format("LT")
     console.log(setTimeSlots)
 
