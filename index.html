@@ -19,6 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/style.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,29 +29,73 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
+
     <div class="container">
       <!-- Timeblocks go here -->
-      <div class="row">
-        <div class="col-style col-sm-2 first-col" style="background-color:rgb(255, 145, 0);">9AM</div>
-        <div class="col-style col-sm-7 second-col" style="background-color:yellow;">
-          <input type="text" class="planItems" placeholder="50%">         
-        </div>
-        <div class="col-style col-sm-2 third-col " style="background-color:orange;">
-          <button> <i class="far fa-save fa-3x"></i> </button>
-        </div>
+        <div class="planner-container">
+          <!-- <div class="time-slot ">
+            <div class="time">9:00 AM</div>
+            <textarea class="inputBox" id="9am">Check into class!</textarea>
+            <div class="save saveBtn" id="saveNine"><i class="fas fa-save"></i></div>
+          </div>
+          <div class="time-slot ">
+            <div class="time">10:00 AM</div>
+            <textarea class="inputBox" id="10am"></textarea>
+            <div class="save saveBtn" id="saveTen"><i class="fas fa-save saveBtn"></i></div>
+          </div>
+          <div class="time-slot ">
+            <div class="time">11:00 AM</div>
+            <textarea class="inputBox" id="11am"></textarea>
+            <div class="save saveBtn" id="saveEleven"><i class="fas fa-save saveBtn"></i></div>
+          </div>
+          <div class="time-slot ">
+            <div class="time">12:00 PM</div>
+            <textarea class="inputBox" id="12pm"></textarea>
+            <div class="save saveBtn" id="saveTwelve"><i class="fas fa-save saveBtn"></i></div>
+          </div>
+          <div class="time-slot ">
+            <div class="time">1:00 PM</div>
+            <textarea class="inputBox" id="1pm"></textarea>
+            <div class="save saveBtn" id="saveOne"><i class="fas fa-save saveBtn"></i></div>
+          </div>
+          <div class="time-slot ">
+            <div class="time">2:00 PM</div>
+            <textarea class="inputBox" id="2pm"></textarea>
+            <div class="save saveBtn" id="saveTwo"><i class="fas fa-save saveBtn"></i></div>
+          </div>
+          <div class="time-slot ">
+            <div class="time">3:00 PM</div>
+            <textarea class="inputBox" id="3pm"></textarea>
+            <div class="save saveBtn" id="saveThree"><i class="fas fa-save saveBtn"></i></div>
+          </div>
+          <div class="time-slot ">
+            <div class="time">4:00 PM</div>
+            <textarea class="inputBox" id="4pm"></textarea>
+            <div class="save saveBtn" id="saveFour"><i class="fas fa-save saveBtn"></i></div>
+          </div>
+          <div class="time-slot ">
+            <div class="time">5:00 PM</div>
+            <textarea class="inputBox" id="5pm"></textarea>
+            <div class="save saveBtn" id="saveFive"><i class="fas fa-save saveBtn"></i></div>
+          </div>
+        </div> -->
+      </div>
+        
+      <div>
+        
       </div>
       
-    
+      
 
-      
-     
-    
-      
 
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="assets/logic.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </html>
